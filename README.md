@@ -42,3 +42,18 @@ The following files are provided:
 
 ## Voigt-Kampf Application
 JetPack Compose Android application that uses the aforementioned server to expose the Reddit detection functionality. [Watch the demo](media/screen2.mov)
+
+The application is composed of the following screens:
+* Home screen - where the user can enter a reddit username and trigger the test
+* Results screen - where the user is shown the results of the test and they can go back by clicking "Test another user"
+* History screen - where the user is show previous tests
+* Settings screen - where the user can toggle between a light and dark theme
+* There is also an application wide Navigation Bar where a user can navigate through the Home, History and Settings screens
+  
+The application is pretty standard, it uses:
+* Room for database operations
+* Retrofit for API operations
+* JetPack Navigation for navigation through the app screens
+* JetPack Compose to display items on screen
+
+
